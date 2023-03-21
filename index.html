@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header id="landing">
+        <nav class="navbar navbar-expand-lg darkbg">
+            <div class="container-fluid darkbg text-center">
+              <a class="navbar-brand darkbg" href="#"><img src="img-main/mplogo.png" class="darkbg ms-3" width="70px" alt=""></a>
+              <button class="navbar-toggler lightbg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse darkbg" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 darkbg">
+                    <li class="nav-item darkbg whover">
+                        <a class="nav-link darkbg whover" aria-current="page" href="#landing">Home</a>
+                    </li>
+                    <li class="nav-item whover">
+                        <a class="nav-link darkbg whover" href="#">Products</a>
+                    </li>
+                    <li class="nav-item whover">
+                      <a class="nav-link darkbg whover" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown darkbg">
+                        <a class="nav-link darkbg whover dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Filter by
+                        </a>
+                          <ul class="dropdown-menu lightbg">
+                            <li><a class="dropdown-item lightbg whover" href="#">Tops</a></li>
+                            <li><a class="dropdown-item lightbg whover" href="#">Jeans</a></li>
+                            <li><a class="dropdown-item lightbg whover" href="#">Footwear</a></li>
+                            <li><a class="dropdown-item lightbg whover" href="#">Headwear</a></li>
+                            <li><a class="dropdown-item lightbg whover" href="#">Bags & Purses</a></li>
+                            <li><hr class="dropdown-divider lightbg whover"></li>
+                            <li><a class="dropdown-item lightbg whover" href="#">Accessories</a></li>
+                          </ul>
+                    </li>
+                </ul>
+                <form class="d-flex darkbg" role="search">
+                    <input class="form-control me-2 lightbg" type="search" placeholder="Search" aria-label="Search">
+                    <div class="dropdown px-2 darkbg">
+                        <button class="btn dropdown-toggle whover" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Categories
+                        </button>
+                        <ul class="dropdown-menu lightbg">
+                          <li><a class="dropdown-item whover" href="#">Men</a></li>
+                          <li><a class="dropdown-item whover" href="#">Women</a></li>
+                          <li><a class="dropdown-item whover" href="#">Kids</a></li>
+                        </ul>
+                      </div>
+                    <button class="btn" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <section id="Banner">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active d-item">
+            <img src="img-main/tamanna-rumee-hGLc8L-EcCM-unsplash.jpg" class="d-block w-100 img-item" alt="...">
+            <div class="carousel-caption d-md-block bg-transparent">
+              <h5 class="bg-transparent">First slide label</h5>
+              <p class="bg-transparent">Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item d-item">
+            <img src="img-main/tamanna-rumee-mIqyYpSNq3o-unsplash.jpg" class="d-block w-100 img-item" alt="...">
+          </div>
+          <div class="carousel-item d-item">
+            <img src="img-main/tamanna-rumee-R4viFLEqOWU-unsplash.jpg" class="d-block w-100 img-item" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-transparent" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-transparent" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+  <nav class="navbar navbar-expand navsub">
+      <div class="container-fluid lightbg">
+        <ul class="navbar-nav">
+          <li class=" dropdown drp lightbg">
+            <div class="nav-link dropdown lightbg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Latest Arrival
+            </div>
+            <ul class="dropdown-menu drpmenu lightbg">
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Action</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Another action</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class=" dropdown drp lightbg">
+            <div class="nav-link dropdown lightbg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Discounted
+            </div>
+            <ul class="dropdown-menu drpmenu lightbg">
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Action</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Another action</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class=" dropdown drp lightbg">
+            <div class="nav-link dropdown lightbg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Top Selling
+            </div>
+            <ul class="dropdown-menu drpmenu lightbg">
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Action</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Another action</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class=" dropdown drp lightbg">
+            <div class="nav-link dropdown lightbg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Popular Now
+            </div>
+            <ul class="dropdown-menu drpmenu lightbg">
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Action</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Another action</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class=" dropdown drp lightbg">
+            <div class="nav-link dropdown lightbg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Bundles
+            </div>
+            <ul class="dropdown-menu drpmenu lightbg">
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Action</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Another action</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container">
+      <div class="container px-4 text-center">
+        <div class="row gx-5">
+
+          <div class="col-12 col-lg-6">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img-main/Forrest.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="lh-sm text-start">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img-main/Forrest.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="lh-sm text-start">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img-main/Forrest.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="lh-sm text-start">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img-main/Forrest.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="lh-sm text-start">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img-main/Forrest.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="lh-sm text-start">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+
+        </div>
+      </div>
+      
+      
+
+      
+    </div>
+  </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
