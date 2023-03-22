@@ -7,75 +7,84 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <header id="landing">
-        <nav class="navbar navbar-expand-lg darkbg">
-            <div class="container-fluid darkbg text-center">
-              <a class="navbar-brand darkbg" href="#"><img src="img-main/mplogo.png" class="darkbg ms-3" width="70px" alt=""></a>
-              <button class="navbar-toggler lightbg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse darkbg" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 darkbg">
-                    <li class="nav-item darkbg whover">
-                        <a class="nav-link darkbg whover" aria-current="page" href="#landing">Home</a>
-                    </li>
-                    <li class="nav-item whover">
-                        <a class="nav-link darkbg whover" href="#">Products</a>
-                    </li>
-                    <li class="nav-item whover">
-                      <a class="nav-link darkbg whover" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown darkbg">
-                        <a class="nav-link darkbg whover dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Filter by
-                        </a>
-                          <ul class="dropdown-menu lightbg">
-                            <li><a class="dropdown-item lightbg whover" href="#">Tops</a></li>
-                            <li><a class="dropdown-item lightbg whover" href="#">Jeans</a></li>
-                            <li><a class="dropdown-item lightbg whover" href="#">Footwear</a></li>
-                            <li><a class="dropdown-item lightbg whover" href="#">Headwear</a></li>
-                            <li><a class="dropdown-item lightbg whover" href="#">Bags & Purses</a></li>
-                            <li><hr class="dropdown-divider lightbg whover"></li>
-                            <li><a class="dropdown-item lightbg whover" href="#">Accessories</a></li>
-                          </ul>
-                    </li>
-                </ul>
-                <form class="d-flex darkbg" role="search">
-                    <input class="form-control me-2 lightbg" type="search" placeholder="Search" aria-label="Search">
-                    <div class="dropdown px-2 darkbg">
-                        <button class="btn dropdown-toggle whover" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Categories
-                        </button>
-                        <ul class="dropdown-menu lightbg">
-                          <li><a class="dropdown-item whover" href="#">Men</a></li>
-                          <li><a class="dropdown-item whover" href="#">Women</a></li>
-                          <li><a class="dropdown-item whover" href="#">Kids</a></li>
-                        </ul>
-                      </div>
-                    <button class="btn" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+    <header id="landing" class="sticky-top">
+      <nav class="navbar navbar-expand-lg darkbg">
+        <div class="container-fluid darkbg text-center">
+          <a class="navbar-brand darkbg" href="#"><img src="img-main/swm logo.png" class="darkbg ms-3" width="70px" alt=""></a>
+          <button class="navbar-toggler lightbg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse darkbg" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 darkbg">
+              <li class="nav-item darkbg whover">
+                <a class="nav-link darkbg whover" aria-current="page" href="#landing">Home</a>
+            </li>
+            <li class="nav-item whover">
+                <a class="nav-link darkbg whover" href="#">Collection</a>
+            </li>
+            <li class="nav-item whover">
+              <a class="nav-link darkbg whover" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown darkbg">
+              <a class="nav-link darkbg whover dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Filter by
+                </a>
+                  <ul class="dropdown-menu lightbg">
+                    <li><a class="dropdown-item lightbg drpmenuh" href="#">Tops</a></li>
+                    <li><a class="dropdown-item lightbg drpmenuh" href="#">Jeans</a></li>
+                    <li><a class="dropdown-item lightbg drpmenuh" href="#">Footwear</a></li>
+                    <li><a class="dropdown-item lightbg drpmenuh" href="#">Headwear</a></li>
+                    <li><a class="dropdown-item lightbg drpmenuh" href="#">Bags & Purses</a></li>
+                    <li><hr class="dropdown-divider lightbg drpmenuh"></li>
+                    <li><a class="dropdown-item lightbg drpmenuh" href="#">Accessories</a></li>
+                  </ul>
+            </li>
+            </ul>
+            <form class="d-flex darkbg" role="search">
+                <input class="form-control me-2 lightbg" type="search" placeholder="Search" aria-label="Search">
+                <div class="dropdown px-2 darkbg">
+                  <button class="btn dropdown-toggle whover" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categories
+                  </button>
+                  <ul class="dropdown-menu lightbg">
+                    <li><a class="dropdown-item whover" href="#">Men</a></li>
+                    <li><a class="dropdown-item whover" href="#">Women</a></li>
+                    <li><a class="dropdown-item whover" href="#">Kids</a></li>
+                  </ul>
+                </div>
+              <button class="btn" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
-    
+
     <section id="Banner">
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active d-item">
-            <img src="img-main/tamanna-rumee-hGLc8L-EcCM-unsplash.jpg" class="d-block w-100 img-item" alt="...">
+            <img src="img-main/claudio-schwarz-628M6D91QX0-unsplash.jpg" class="d-block w-100 img-item" alt="...">
             <div class="carousel-caption d-md-block bg-transparent">
               <h5 class="bg-transparent">First slide label</h5>
               <p class="bg-transparent">Some representative placeholder content for the first slide.</p>
             </div>
           </div>
           <div class="carousel-item d-item">
-            <img src="img-main/tamanna-rumee-mIqyYpSNq3o-unsplash.jpg" class="d-block w-100 img-item" alt="...">
+            <img src="img-main/markus-spiske-WIpNUhklTQg-unsplash.jpg" class="d-block w-100 img-item" alt="...">
+            <div class="carousel-caption d-md-block bg-transparent">
+              <h5 class="bg-transparent">First slide label</h5>
+              <p class="bg-transparent">Some representative placeholder content for the first slide.</p>
+            </div>
           </div>
           <div class="carousel-item d-item">
-            <img src="img-main/tamanna-rumee-R4viFLEqOWU-unsplash.jpg" class="d-block w-100 img-item" alt="...">
+            <img src="img-main/lumensoft-technologies-wxRvOFBbM8o-unsplash.jpg" class="d-block w-100 img-item" alt="...">
+            <div class="carousel-caption d-md-block bg-transparent">
+              <h5 class="bg-transparent">First slide label</h5>
+              <p class="bg-transparent">Some representative placeholder content for the first slide.</p>
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -89,7 +98,7 @@
       </div>
     </section>
 
-  <nav class="navbar navbar-expand navsub">
+  <!-- <nav class="navbar navbar-expand navsub">
       <div class="container-fluid lightbg">
         <ul class="navbar-nav">
           <li class=" dropdown drp lightbg">
@@ -97,9 +106,8 @@
               Latest Arrival
             </div>
             <ul class="dropdown-menu drpmenu lightbg">
-              <li><a class="dropdown-item lightbg drpmenuh" href="#">Action</a></li>
-              <li><a class="dropdown-item lightbg drpmenuh" href="#">Another action</a></li>
-              <li><a class="dropdown-item lightbg drpmenuh" href="#">Something else here</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">This Week</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">This Month</a></li>
             </ul>
           </li>
           <li class=" dropdown drp lightbg">
@@ -107,9 +115,9 @@
               Discounted
             </div>
             <ul class="dropdown-menu drpmenu lightbg">
-              <li><a class="dropdown-item lightbg drpmenuh" href="#">Action</a></li>
-              <li><a class="dropdown-item lightbg drpmenuh" href="#">Another action</a></li>
-              <li><a class="dropdown-item lightbg drpmenuh" href="#">Something else here</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">50% Discount</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Limited Time Offers</a></li>
+              <li><a class="dropdown-item lightbg drpmenuh" href="#">Sale</a></li>
             </ul>
           </li>
           <li class=" dropdown drp lightbg">
@@ -147,110 +155,391 @@
     </div>
   </nav>
 
-  <section>
-    <div class="container">
-      <div class="container px-4 text-center">
-        <div class="row gx-5">
+  <div class="container">
+    <button type="button" class="btn">CART</button>
+    <button type="button" class="btn">WISHLIST</button>
+    <button type="button" class="btn">CHECK OUT</button>
+  </div>
 
-          <div class="col-12 col-lg-6">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="img-main/Forrest.png" class="img-fluid" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="lh-sm text-start">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <section class="container text-center mt-5">
+  
+    <div class="collection-list row">
+      <div class="product col-12 col-sm-4 col-md-3 col-lg-2 card lightbg">
+        <img src="img-main/Forrest.png" class="card-img" alt="...">
+        <span class="position-absolute darkbg spansale justify-content-center align-items-center">Sale!</span>
+        <div class="container-fluid card-items">
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar darkbg" style="width: 100%">Rating: 100%</div>
           </div>
-
-          <div class="col-12 col-lg-6">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="img-main/Forrest.png" class="img-fluid" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="lh-sm text-start">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-lg-6">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="img-main/Forrest.png" class="img-fluid" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="lh-sm text-start">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-lg-6">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="img-main/Forrest.png" class="img-fluid" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="lh-sm text-start">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-lg-6">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="img-main/Forrest.png" class="img-fluid" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="lh-sm text-start">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          
-
+            <p class="m-0 fw-bold">Oversized Shirt</p>
+            <span class="fw-bold">
+              $35.00
+            </span>
+            <button type="button" class="btn btn-sm w-100">Add to cart</button>
         </div>
       </div>
-      
-      
+      <div class="product col-12 col-sm-4 col-md-3 col-lg-2 card lightbg">
+        <img src="img-main/Forrest.png" class="card-img" alt="...">
+        <span class="position-absolute darkbg spansale justify-content-center align-items-center">Sale!</span>
+        <div class="container-fluid card-items">
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar darkbg" style="width: 100%">Rating: 100%</div>
+          </div>
+            <p class="m-0 fw-bold">Oversized Shirt</p>
+            <span class="fw-bold">
+              $35.00
+            </span>
+            <button type="button" class="btn btn-sm w-100">Add to cart</button>
+        </div>
+      </div>
+      <div class="product col-12 col-sm-4 col-md-3 col-lg-2 card lightbg">
+        <img src="img-main/Forrest.png" class="card-img" alt="...">
+        <span class="position-absolute darkbg spansale justify-content-center align-items-center">Sale!</span>
+        <div class="container-fluid card-items">
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar darkbg" style="width: 100%">Rating: 100%</div>
+          </div>
+            <p class="m-0 fw-bold">Oversized Shirt</p>
+            <span class="fw-bold">
+              $35.00
+            </span>
+            <button type="button" class="btn btn-sm w-100">Add to cart</button>
+        </div>
+      </div>
+      <div class="product col-12 col-sm-4 col-md-3 col-lg-2 card lightbg">
+        <img src="img-main/Forrest.png" class="card-img" alt="...">
+        <span class="position-absolute darkbg spansale justify-content-center align-items-center">Sale!</span>
+        <div class="container-fluid card-items">
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar darkbg" style="width: 100%">Rating: 100%</div>
+          </div>
+            <p class="m-0 fw-bold">Oversized Shirt</p>
+            <span class="fw-bold">
+              $35.00
+            </span>
+            <button type="button" class="btn btn-sm w-100">Add to cart</button>
+        </div>
+      </div>
+      <div class="product col-12 col-sm-4 col-md-3 col-lg-2 card lightbg">
+        <img src="img-main/Forrest.png" class="card-img" alt="...">
+        <span class="position-absolute darkbg spansale justify-content-center align-items-center">Sale!</span>
+        <div class="container-fluid card-items">
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar darkbg" style="width: 100%">Rating: 100%</div>
+          </div>
+            <p class="m-0 fw-bold">Oversized Shirt</p>
+            <span class="fw-bold">
+              $35.00
+            </span>
+            <button type="button" class="btn btn-sm w-100">Add to cart</button>
+        </div>
+      </div>
+      <div class="product col-12 col-sm-4 col-md-3 col-lg-2 card lightbg">
+        <img src="img-main/Forrest.png" class="card-img" alt="...">
+        <span class="position-absolute darkbg spansale justify-content-center align-items-center">Sale!</span>
+        <div class="container-fluid card-items">
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar darkbg" style="width: 100%">Rating: 100%</div>
+          </div>
+            <p class="m-0 fw-bold">Oversized Shirt</p>
+            <span class="fw-bold">
+              $35.00
+            </span>
+            <button type="button" class="btn btn-sm w-100">Add to cart</button>
+        </div>
+      </div>
+    </div>
 
-      
+    <nav aria-label="Page navigation example">
+      <ul class="pagination lightbg justify-content-center">
+        <li class="page-item"><a class="page-link lightbg drpmenuh" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link lightbg drpmenuh" href="#">1</a></li>
+        <li class="page-item"><a class="page-link lightbg drpmenuh" href="#">2</a></li>
+        <li class="page-item"><a class="page-link lightbg drpmenuh" href="#">3</a></li>
+        <li class="page-item"><a class="page-link lightbg drpmenuh" href="#">Next</a></li>
+      </ul>
+    </nav>
+
+  </section> -->
+
+  <section class="heading">
+    <div class="container gy-5">
+      <h1>Streetwear Manila</h1>
     </div>
   </section>
 
 
+  <section id = "newArrival" class = "py-5">
+    <div class = "container">
+      <div class = "title text-center">
+        <h2 class = "position-relative d-inline-block">New Arrival</h2>
+      </div>
+
+      <div class = "newA-list row g-0">
+        <div class = "col-6 col-md-4 col-lg-2 p-2">
+          <div class = "newA-img position-relative overflow-hidden">
+              <img src = "img-main/Forrest.png" class = "w-100">
+          </div>
+          <div class = "text-center">
+              <p class = "text-capitalize mt-3 mb-1">Forrest Shirt</p>
+              <span class = "fw-bold d-block">$ 45.50</span>
+              <a href = "#" class = "btn btn-primary mt-3">Add to Cart</a>
+          </div>
+        </div>
+        <div class = "col-6 col-md-4 col-lg-2 p-2">
+          <div class = "newA-img position-relative overflow-hidden">
+              <img src = "img-main/Forrest.png" class = "w-100">
+          </div>
+          <div class = "text-center">
+              <p class = "text-capitalize mt-3 mb-1">Forrest Shirt</p>
+              <span class = "fw-bold d-block">$ 45.50</span>
+              <a href = "#" class = "btn btn-primary mt-3">Add to Cart</a>
+          </div>
+        </div>
+        <div class = "col-6 col-md-4 col-lg-2 p-2">
+          <div class = "newA-img position-relative overflow-hidden">
+              <img src = "img-main/Forrest.png" class = "w-100">
+          </div>
+          <div class = "text-center">
+              <p class = "text-capitalize mt-3 mb-1">Forrest Shirt</p>
+              <span class = "fw-bold d-block">$ 45.50</span>
+              <a href = "#" class = "btn btn-primary mt-3">Add to Cart</a>
+          </div>
+        </div>
+        <div class = "col-6 col-md-4 col-lg-2 p-2">
+          <div class = "newA-img position-relative overflow-hidden">
+              <img src = "img-main/Forrest.png" class = "w-100">
+          </div>
+          <div class = "text-center">
+              <p class = "text-capitalize mt-3 mb-1">Forrest Shirt</p>
+              <span class = "fw-bold d-block">$ 45.50</span>
+              <a href = "#" class = "btn btn-primary mt-3">Add to Cart</a>
+          </div>
+        </div>
+        <div class = "col-6 col-md-4 col-lg-2 p-2">
+          <div class = "newA-img position-relative overflow-hidden">
+              <img src = "img-main/Forrest.png" class = "w-100">
+          </div>
+          <div class = "text-center">
+              <p class = "text-capitalize mt-3 mb-1">Forrest Shirt</p>
+              <span class = "fw-bold d-block">$ 45.50</span>
+              <a href = "#" class = "btn btn-primary mt-3">Add to Cart</a>
+          </div>
+        </div>
+        <div class = "col-6 col-md-4 col-lg-2 p-2">
+          <div class = "newA-img position-relative overflow-hidden">
+              <img src = "img-main/Forrest.png" class = "w-100">
+          </div>
+          <div class = "text-center">
+              <p class = "text-capitalize mt-3 mb-1">Forrest Shirt</p>
+              <span class = "fw-bold d-block">$ 45.50</span>
+              <a href = "#" class = "btn btn-primary mt-3">Add to Cart</a>
+          </div>
+        </div>
+
+      </div>
+      
+  </section>
+
+  <section id = "about" class = "py-5">
+    <div class = "container">
+      <div class = "row gy-lg-5 align-items-center">
+        <div class = "col-lg-6 order-lg-1 text-center text-lg-start">
+            <div class = "title pt-3 pb-5">
+                <h2 class = "position-relative d-inline-block ms-4">About Us</h2>
+            </div>
+            <p class = "lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ipsam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fuga blanditiis, modi exercitationem quae quam eveniet! Minus labore voluptatibus corporis recusandae accusantium velit, nemo, nobis, nulla ullam pariatur totam quos.</p>
+        </div>
+        <div class = "col-lg-6 order-lg-0">
+            <img src = "img-main/atikh-bana-_KaMTEmJnxY-unsplash.jpg" alt = "" class = "img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id = "mbanner" class = "py-5 my-5">
+    <div class = "container bg-transparent">
+      <div class = "row d-flex align-items-center justify-content-center text-center justify-content-lg-start text-lg-start bg-transparent">
+        <div class = "bg-transparent">
+            <span class = "text-white bg-transparent">Discount Up To 50%</span>
+            <h2 class = "mt-2 mb-4 text-white bg-transparent">Click to see our Hottest Offers!</h2>
+            <a href = "#" class = "btn">See More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id = "blogs" class = "py-5">
+    <div class = "container">
+        <div class = "title text-center py-5">
+            <h2 class = "position-relative d-inline-block">Our Latest Blog</h2>
+        </div>
+
+        <div class = "row g-3">
+            <div class = "card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                <img src = "img-main/mnz-ToLMORRb97Q-unsplash.jpg" alt = "">
+                <div class = "card-body px-0">
+                    <h4 class = "card-title">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                    <p class = "card-text mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.</p>
+                    <p class = "card-text">
+                        <small class = "text-muted">
+                            <span class = "fw-bold">By: </span>Boriz B.
+                        </small>
+                    </p>
+                    <a href = "#" class = "btn">Read More</a>
+                </div>
+            </div>
+
+            <div class = "card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                <img src = "img-main/lan-deng-quddu_dZKkQ-unsplash.jpg" alt = "">
+                <div class = "card-body px-0">
+                    <h4 class = "card-title">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                    <p class = "card-text mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.</p>
+                    <p class = "card-text">
+                        <small class = "text-muted">
+                            <span class = "fw-bold">By: </span>Boriz B.
+                        </small>
+                    </p>
+                    <a href = "#" class = "btn">Read More</a>
+                </div>
+            </div>
+
+            <div class = "card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                <img src = "img-main/alen-kajtezovic-MUZM626vF28-unsplash.jpg" alt = "">
+                <div class = "card-body px-0">
+                    <h4 class = "card-title">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                    <p class = "card-text mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.</p>
+                    <p class = "card-text">
+                        <small class = "text-muted">
+                            <span class = "fw-bold">By: </span>Boriz B.
+                        </small>
+                    </p>
+                    <a href = "#" class = "btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <section id="registerNow" class="m-5">
+    <div class="">
+      <div class="register-section text-center">
+        <h3>REGISTER NOW</h3>
+        <p>Be a member to get more promotions!</p>
+        <div class="container text-center">
+          <div class="container row text-center">
+            <div class="col-6">
+              <input type="email" class="form-control fc1" id="floatingInput" placeholder="Email address">
+            </div>
+            <div class="col 6">
+              <input type="password" class="form-control fc1" id="floatingPassword" placeholder="Password">
+            </div>
+          </div>
+          <input class="btn my-2" type="submit" value="Submit">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class = "darkbg py-5">
+    <div class = "container darkbg">
+        <div class = "row text-white g-4 darkbg">
+            <div class = "col-md-6 col-lg-3 darkbg">
+                <a class = "text-uppercase text-decoration-none brand text-white darkbg" href = "index.html">Streetwear Manila</a>
+                <p class = "text-white text-muted mt-3 darkbg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+            </div>
+
+            <div class = "col-md-6 col-lg-3 darkbg">
+                <h5 class = "fw-light darkbg">Links</h5>
+                <ul class = "list-unstyled darkbg">
+                    <li class = "my-3 darkbg">
+                        <a href = "#" class = "text-white text-decoration-none text-muted darkbg">
+                            <i class = "fas fa-chevron-right me-1 darkbg"></i> Home
+                        </a>
+                    </li>
+                    <li class = "my-3 darkbg">
+                        <a href = "#" class = "text-white text-decoration-none text-muted darkbg">
+                            <i class = "fas fa-chevron-right me-1 darkbg"></i> Collection
+                        </a>
+                    </li>
+                    <li class = "my-3 darkbg">
+                        <a href = "#" class = "text-white text-decoration-none text-muted darkbg">
+                            <i class = "fas fa-chevron-right me-1 darkbg"></i> Blogs
+                        </a>
+                    </li>
+                    <li class = "my-3 darkbg">
+                        <a href = "#" class = "text-white text-decoration-none text-muted darkbg">
+                            <i class = "fas fa-chevron-right me-1 darkbg"></i> About Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class = "col-md-6 col-lg-3 darkbg">
+                <h5 class = "fw-light mb-3 darkbg">Contact Us</h5>
+                <div class = "d-flex justify-content-start align-items-start my-2 text-muted darkbg">
+                    <span class = "me-3 darkbg">
+                        <i class = "fas fa-map-marked-alt darkbg"></i>
+                    </span>
+                    <span class = "fw-light darkbg">
+                        123 Dito Street Metro Manila, Philippines
+                    </span>
+                </div>
+                <div class = "d-flex justify-content-start align-items-start my-2 text-muted darkbg">
+                    <span class = "me-3 darkbg">
+                        <i class = "fas fa-envelope darkbg"></i>
+                    </span>
+                    <span class = "fw-light darkbg">
+                        manilastreetwear@gmail.com
+                    </span>
+                </div>
+                <div class = "d-flex justify-content-start align-items-start my-2 text-muted darkbg">
+                    <span class = "me-3 darkbg">
+                        <i class = "fas fa-phone-alt darkbg"></i>
+                    </span>
+                    <span class = "fw-light darkbg">
+                        +9786 6776 236
+                    </span>
+                </div>
+            </div>
+
+            <div class = "col-md-6 col-lg-3 darkbg">
+                <h5 class = "fw-light mb-3 darkbg">Follow Us</h5>
+                <div>
+                    <ul class = "list-unstyled d-flex darkbg">
+                        <li class="darkbg">
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4 darkbg">
+                                <i class = "fab fa-facebook-f darkbg"></i>
+                            </a>
+                        </li>
+                        <li class="darkbg">
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4 darkbg">
+                                <i class = "fab fa-twitter darkbg"></i>
+                            </a>
+                        </li>
+                        <li class="darkbg">
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4 darkbg">
+                                <i class = "fab fa-instagram darkbg"></i>
+                            </a>
+                        </li>
+                        <li class="darkbg">
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4 darkbg">
+                                <i class = "fab fa-pinterest darkbg"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
 
 
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
