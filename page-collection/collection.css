@@ -1,0 +1,115 @@
+*{
+    background: #ffe5ce;
+    background-color:#ffe5ce;
+}
+
+body{
+    background-color: #ffe5ce;
+}
+
+.darkbg,
+.btn,
+.button{
+    background: #c69c6d;
+    background-color: #c69c6d;
+    border-color: #ffe5ce;
+    color: #ffe5ce;
+}
+
+.btn:hover,
+.whover:hover{
+    background-color: #ffe5ce;
+    color: #c69c6d;
+    border-radius: 10px;
+}
+
+.lightbg{
+    background: #ffe5ce;
+    border-color: #c69c6d;
+    color: #c69c6d;
+}
+
+.img-item{
+    height: 100%;
+    object-fit: cover
+}
+
+.drp:hover > .drpmenu{
+    color: #facba1;
+    display: block;
+}
+.drpmenuh:hover{
+    color: #facba1;
+    background: #ffe5ce ;
+}
+
+.card{
+    border-color: #c69c6d;
+    font-size: 0.8em;
+}
+
+.spansale{
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.product{
+    margin: 10px;
+}
+
+.fc1{
+    background-color: #c69c6d;
+    border-color: #c69c6d;
+}
+
+#mbanner{
+    background: url(img-main/tamanna-rumee-mIqyYpSNq3o-unsplash.png) center/cover no-repeat;
+
+}
+
+.newA-img span{
+    top: 20px;
+    right: 20px;
+}
+.newA-list .btn{
+    padding: 8px 20px!important;
+}
+.newA-img img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.newA-img:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 500px) {
+    .navsub{
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .d-item{
+        height: 500px
+    }   
+}
+@media screen and (min-width: 2000px) {
+    .d-item{
+        height: 900px
+    }   
+}
+@media screen and (min-width: 3000px) {
+    .d-item{
+        height: 1200px
+    }   
+}
